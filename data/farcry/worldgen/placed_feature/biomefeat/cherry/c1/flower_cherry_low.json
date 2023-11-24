@@ -1,0 +1,35 @@
+{
+  "feature": "farcry:biomefeat/cherry/c1/flower_cherry_low",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+			"type": "count_on_every_layer",
+			"count":{
+				"type": "minecraft:uniform",
+				"value":{
+				"min_inclusive": 0,
+				"max_inclusive": 9
+				}
+			}
+		},
+    {
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 24,
+			"target_condition": {
+				"type": "minecraft:has_sturdy_face",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+        "direction":"up"
+			}
+		},
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

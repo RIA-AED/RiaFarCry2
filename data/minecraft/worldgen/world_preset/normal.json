@@ -4,20 +4,44 @@
       "type": "minecraft:overworld_caves",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "farcry:caves5",
+    "settings": "farcry:caves6",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "farcry:cherry_grove_ug",
+          "biome": "farcry:cherry_a1",
           "parameters": {
             "temperature": 0.5,
             "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": -1,
+            "depth": -1.2,
             "offset": 0
+          }
+        },
+        {
+          "biome": "farcry:cherry_b1",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": -0.9,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "farcry:cherry_c1",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": -0.5,
+            "offset": 0.3
           }
         },
         {
@@ -33,7 +57,7 @@
           }
         },
         {
-          "biome": "farcry:forest_ug",
+          "biome": "farcry:redforest_b2",
           "parameters": {
             "temperature": -0.5,
             "humidity": 0,
