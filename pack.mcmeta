@@ -1,6 +1,6 @@
 {
-    "pack" : {
-        "description" : "Ria远境2数据包",
-        "pack_format" : 12
-    }
+  "pack": {
+    "pack_format": 15,
+    "description": "莉亚远境2数据包"
+  }
 }
