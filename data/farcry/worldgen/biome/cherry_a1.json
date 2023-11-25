@@ -49,9 +49,10 @@
     [],
     [],
     [
-      "farcry:biomefeat/cherry/ore_calcite",
+      "farcry:biomefeat/cherry/ore_calcite_roof",
       "farcry:biomefeat/cherry/glowstone_cherry",
       "farcry:biomefeat/cherry/glowstoneabove_cherry",
+      "minecraft:glowstone",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
