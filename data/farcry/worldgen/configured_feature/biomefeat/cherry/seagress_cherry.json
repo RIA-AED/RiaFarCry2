@@ -8,7 +8,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:ochre_froglight"
+              "Name": "minecraft:seagrass"
             }
           }
         }
@@ -18,7 +18,7 @@
           "type": "minecraft:block_predicate_filter",
           "predicate": {
             "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:air"
+            "blocks": "minecraft:water"
           }
         }
       ]

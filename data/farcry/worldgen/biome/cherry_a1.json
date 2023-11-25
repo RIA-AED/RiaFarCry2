@@ -27,7 +27,7 @@
       "options": {
         "type": "minecraft:cherry_leaves"
       },
-      "probability": 0.02
+      "probability": 0.01
     },
     "sky_color": 8103167,
     "water_color": 6141935,
@@ -51,6 +51,7 @@
     [
       "farcry:biomefeat/cherry/ore_calcite",
       "farcry:biomefeat/cherry/glowstone_cherry",
+      "farcry:biomefeat/cherry/glowstoneabove_cherry",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",

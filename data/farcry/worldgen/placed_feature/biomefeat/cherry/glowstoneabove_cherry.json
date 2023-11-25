@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:warm_ocean_vegetation",
+  "feature": "farcry:biomefeat/cherry/glowstoneabove_cherry",
   "placement": [
     {
       "type": "minecraft:count",
@@ -16,6 +16,22 @@
 				"min_inclusive": 0,
 				"max_inclusive": 3
 				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "up",
+			"max_steps": 24,
+			"target_condition": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					1,
+					0
+				],
+				"blocks":[
+					"minecraft:stone"
+				]
 			}
 		},
     {

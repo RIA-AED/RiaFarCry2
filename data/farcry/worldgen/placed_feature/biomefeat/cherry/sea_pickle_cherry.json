@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:sea_pickle",
+  "feature": "farcry:biomefeat/cherry/sea_pickle_cherry",
   "placement": [
     {
       "type": "minecraft:count",
@@ -18,18 +18,23 @@
 				}
 			}
 		},
-    {
+		{
 			"type": "minecraft:environment_scan",
 			"direction_of_search": "down",
 			"max_steps": 24,
 			"target_condition": {
-				"type": "minecraft:matching_fluids",
+				"type": "minecraft:matching_blocks",
 				"offset": [
 					0,
 					0,
 					0
 				],
-				"fluids":"minecraft:water"
+				"blocks":[
+					"minecraft:stone",
+					"minecraft:gravel",
+					"minecraft:dirt",
+					"minecraft:deepslate"
+				]
 			}
 		},
     {
