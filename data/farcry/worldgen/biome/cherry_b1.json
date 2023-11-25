@@ -27,7 +27,7 @@
       "options": {
         "type": "minecraft:cherry_leaves"
       },
-      "probability": 0.05
+      "probability": 0.02
     },
     "sky_color": 8103167,
     "water_color": 6141935,
@@ -49,6 +49,7 @@
     [],
     [],
     [
+      "farcry:biomefeat/cherry/glowstone_cherry",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -90,11 +91,7 @@
       "farcry:biomefeat/cherry/b1/cherry_medium",
       "farcry:biomefeat/cherry/b1/flower_cherry_medium",
       "minecraft:lush_caves_clay",
-      "minecraft:lush_caves_vegetation",
-      "minecraft:seagrass_deep_warm",
-      "minecraft:seagrass_simple",
-      "minecraft:bamboo_light",
-      "minecraft:kelp_cold"
+      "minecraft:lush_caves_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

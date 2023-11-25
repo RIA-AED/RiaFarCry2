@@ -50,7 +50,6 @@
     [],
     [
       "farcry:biomefeat/cherry/ore_calcite",
-      "farcry:biomefeat/cherry/glowstone_cherry",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -89,8 +88,10 @@
       "minecraft:spring_lava"
     ],
     [
-      "farcry:biomefeat/cherry/a1/cherry_high",
-      "farcry:biomefeat/cherry/a1/flower_cherry_high"
+      "farcry:biomefeat/cherry/kelp_cherry",
+      "farcry:biomefeat/cherry/sea_pickle_cherry",
+      "farcry:biomefeat/cherry/seagrass_cherry",
+      "farcry:biomefeat/cherry/e1/coral_deep"
     ],
     [
       "minecraft:freeze_top_layer"

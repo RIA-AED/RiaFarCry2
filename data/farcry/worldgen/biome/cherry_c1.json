@@ -27,7 +27,7 @@
       "options": {
         "type": "minecraft:cherry_leaves"
       },
-      "probability": 0.05
+      "probability": 0.02
     },
     "sky_color": 8103167,
     "water_color": 6141935,
@@ -91,13 +91,12 @@
       "farcry:biomefeat/cherry/c1/flower_cherry_low",
       "farcry:biomefeat/cherry/c1/patch_cherry_c1",
       "farcry:biomefeat/cherry/c1/patch_waterlily_c1",
+      "farcry:biomefeat/cherry/kelp_cherry",
+      "farcry:biomefeat/cherry/sea_pickle_cherry",
+      "farcry:biomefeat/cherry/seagrass_cherry",
       "minecraft:lush_caves_ceiling_vegetation",
       "minecraft:lush_caves_clay",
-      "minecraft:lush_caves_vegetation",
-      "minecraft:seagrass_deep_warm",
-      "minecraft:seagrass_simple",
-      "minecraft:bamboo_light",
-      "minecraft:kelp_cold"
+      "minecraft:lush_caves_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"
