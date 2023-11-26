@@ -6,6 +6,9 @@
       "minecraft:snowy_plains",
       "minecraft:taiga",
       "#minecraft:is_mountain",
-      "minecraft:grove"
+      "minecraft:grove",
+      "farcry:cherry_a1",
+      "farcry:cherry_b1",
+      "farcry:cherry_c1"
     ]
   }

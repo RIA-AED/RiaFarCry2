@@ -1,8 +1,16 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:has_structure/pillager_outpost",
+  "biomes": "#minecraft:has_structure/ria_tent",
   "max_distance_from_center": 80,
-  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive":{
+      "absolute":-64
+    },
+    "max_inclusive":{
+      "absolute":256
+    }
+  },
   "size": 7,
   "spawn_overrides": {
     "monster": {
@@ -16,9 +24,6 @@
         }
       ]
     }
-  },
-  "start_height": {
-    "absolute": 0
   },
   "start_pool": "minecraft:pillager_outpost/base_plates",
   "step": "surface_structures",
