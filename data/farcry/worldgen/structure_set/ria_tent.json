@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 1,
+    "frequency_reduction_method": "legacy_type_1",
+    "locate_offset":[
+      0,
+      0,
+      0
+    ],
+    "salt": 165745296,
+    "separation": 2,
+    "spacing": 12
+  },
+  "structures": [
+    {
+      "structure": "farcry:ria_tent",
+      "weight": 1
+    }
+  ]
+}
