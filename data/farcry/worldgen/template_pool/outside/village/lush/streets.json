@@ -1,0 +1,59 @@
+{
+  "fallback": "farcry:outside/village/lush/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "farcry:outside/village/lush/streets/end",
+        "projection": "rigid",
+        "processors": "farcry:outside/lush_village"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "farcry:outside/village/lush/streets/curve",
+        "projection": "rigid",
+        "processors": "farcry:outside/lush_village"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "farcry:outside/village/lush/streets/farm",
+        "projection": "rigid",
+        "processors": "farcry:outside/lush_village"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "farcry:outside/village/lush/streets/medium",
+        "projection": "rigid",
+        "processors": "farcry:outside/lush_village"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "farcry:outside/village/lush/streets/t",
+        "projection": "rigid",
+        "processors": "farcry:outside/lush_village"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "farcry:outside/village/lush/streets/x",
+        "projection": "rigid",
+        "processors": "farcry:outside/lush_village"
+      }
+    }
+  ]
+}

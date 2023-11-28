@@ -6,7 +6,7 @@
       "count": {
         "type": "minecraft:uniform",
         "value": {
-          "max_inclusive": 20,
+          "max_inclusive": 12,
           "min_inclusive": 2
         }
       }
@@ -22,7 +22,7 @@
           "absolute": 260
         },
         "min_inclusive": {
-          "above_bottom": 250
+          "above_bottom": 240
         }
       }
     },

@@ -1,0 +1,20 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "farcry:outside/village/lush/mobs/villager",
+        "projection": "rigid",
+        "processors": "farcry:outside/lush_village"
+      }
+    },
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		}
+  ]
+}

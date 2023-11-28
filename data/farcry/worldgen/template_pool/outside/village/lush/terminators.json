@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "farcry:outside/village/lush/streets/end",
+        "projection": "rigid",
+        "processors": "farcry:outside/lush_village"
+      }
+    }
+  ]
+}
