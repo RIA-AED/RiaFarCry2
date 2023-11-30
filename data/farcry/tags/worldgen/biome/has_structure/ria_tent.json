@@ -1,14 +1,14 @@
 {
     "values": [
-      "minecraft:desert",
-      "minecraft:plains",
-      "minecraft:savanna",
-      "minecraft:snowy_plains",
-      "minecraft:taiga",
-      "#minecraft:is_mountain",
-      "minecraft:grove",
-      "farcry:cherry_a1",
-      "farcry:cherry_b1",
-      "farcry:cherry_c1"
+        "minecraft:desert",
+        "minecraft:plains",
+        "minecraft:savanna",
+        "minecraft:snowy_plains",
+        "minecraft:taiga",
+        "minecraft:grove",
+        "#minecraft:is_mountain",
+        "farcry:cherry_a1",
+        "farcry:cherry_b1",
+        "farcry:cherry_c1"
     ]
-  }
+}
