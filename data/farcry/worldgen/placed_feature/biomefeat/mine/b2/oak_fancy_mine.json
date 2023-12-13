@@ -1,0 +1,58 @@
+{
+	"feature": "farcry:biomefeat/mine/b2/fancy_oak_mine",
+	"placement": [
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "count_on_every_layer",
+			"count":{
+				"type": "minecraft:uniform",
+				"value":{
+				"min_inclusive": 0,
+				"max_inclusive": 6
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 24,
+			"target_condition": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:dirt",
+					"minecraft:grass_block"
+				]
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"blocks": [
+					"minecraft:air"
+				]
+			}
+		},
+		{
+			"type": "minecraft:count",
+			"count": 32
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": 0,
+			"y_spread": 1
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

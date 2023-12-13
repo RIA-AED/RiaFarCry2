@@ -1,0 +1,44 @@
+{
+  "feature": "farcry:biomefeat/cherry/seagress_cherry",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 4
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+			"type": "count_on_every_layer",
+			"count":{
+				"type": "minecraft:uniform",
+				"value":{
+				"min_inclusive": 0,
+				"max_inclusive": 6
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 24,
+			"target_condition": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"blocks":[
+					"minecraft:stone",
+					"minecraft:gravel",
+					"minecraft:dirt",
+					"minecraft:deepslate"
+				]
+			}
+		},
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

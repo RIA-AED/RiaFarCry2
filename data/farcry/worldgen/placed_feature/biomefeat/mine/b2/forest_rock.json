@@ -1,0 +1,25 @@
+{
+  "feature": "minecraft:forest_rock",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+		{
+			"type": "count_on_every_layer",
+			"count":{
+				"type": "minecraft:uniform",
+				"value":{
+				"min_inclusive": 0,
+				"max_inclusive": 9
+				}
+			}
+		},
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

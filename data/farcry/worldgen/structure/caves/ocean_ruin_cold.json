@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:ocean_ruin",
+  "biome_temp": "warm",
+  "biomes": [
+    "farcry:mine_d2",
+    "farcry:mine_e2"
+  ],
+  "cluster_probability": 0.9,
+  "large_probability": 0.3,
+  "spawn_overrides": {},
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive":{
+      "absolute":-64
+    },
+    "max_inclusive":{
+      "absolute":256
+    }
+  },
+  "step": "vegetal_decoration",
+  "terrain_adaptation": "beard_thin"
+}
